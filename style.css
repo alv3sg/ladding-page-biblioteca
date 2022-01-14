@@ -46,11 +46,13 @@ main{
     position: absolute;
     right: 1%;
     top: 100%;
+    background-color: rgba(255, 255, 255, 0);
 }
 #anterior{
     position: absolute;
     left: 1%;
     top: 100%;
+    background-color: rgba(255, 255, 255, 0);
 }
 .capa{
     background-color: rgba(0, 0, 0, 0.349);
@@ -76,7 +78,7 @@ main{
     text-align: center;  
     color: white;
 }
-table{
+table, p{
     box-shadow: 0px 9px 16px black;
     margin: auto;
     color: white;
@@ -91,4 +93,7 @@ h1{
 }
 caption{
     font-size: 30px;
+}
+tr {
+    box-shadow: 1px 1px 2px black;
 }
